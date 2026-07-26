@@ -2,7 +2,7 @@
 
 ### A budding C++ developer from Russia
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Kakadu525&label=Profile views&color=0e75b6&style=flat" alt="Kakadu525" /> </p>
+![Profile Views](https://komarev.com/ghpvc/?username=Kakadu525&label=Profile%20Views&color=0e75b6&style=for-the-badge)
 
 - 🔭 I'm currently working on **DevToolbox**
 
