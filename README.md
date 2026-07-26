@@ -42,8 +42,6 @@ Offline Windows toolbox for developers — 19 everyday utilities in a single por
 - HTTP Client · cURL Generator
 - Process Explorer · Log Viewer · Clipboard History
 
-🔗 **[github.com/Kakadu525/dev-toolbox](https://github.com/Kakadu525/dev-toolbox)**
-
 ---
 
 ### 🤖 [Steam Code Bot](https://github.com/Kakadu525/steam-code-bot)
