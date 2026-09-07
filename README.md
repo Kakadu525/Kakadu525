@@ -169,11 +169,25 @@ VK-бот, который следит за почтой Yandex через **IMA
 ## Current Goals
 
 - [x] Build useful desktop software
-- [x] Ship a production-style backend service (async API, tests, Docker, metrics)
+- [x] Ship a production-style backend service — async Python API, PostgreSQL, Docker, CI/CD, Prometheus metrics
+- [x] Automate real-world workflows with Python (VK bot, IMAP integration)
 - [x] Grow an open-source portfolio
 - [x] Master Modern C++
 - [ ] Learn Computer Vision
 - [ ] Contribute to popular repositories
+
+<details>
+<summary>По-русски</summary>
+
+- [x] Разрабатывать полезный десктопный софт
+- [x] Выпустить бэкенд-сервис production-уровня — async Python API, PostgreSQL, Docker, CI/CD, метрики Prometheus
+- [x] Автоматизировать реальные рабочие процессы на Python (VK-бот, интеграция с IMAP)
+- [x] Расширять open-source портфолио
+- [x] Освоить современный C++
+- [ ] Изучить Computer Vision
+- [ ] Контрибьютить в популярные репозитории
+
+</details>
 
 ---
 
