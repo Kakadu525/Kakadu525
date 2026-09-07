@@ -51,7 +51,7 @@ Async REST API for wallet balance operations, built with **FastAPI** and **Postg
 - Prometheus metrics, Alembic migrations, pytest against a real PostgreSQL instance, one-command Docker Compose deploy
 
 <details>
-<summary>По-русски</summary>
+<summary>RU</summary>
 
 Асинхронный REST API кошельков на **FastAPI + PostgreSQL** — атомарные операции с балансом, журнал транзакций, идемпотентность, аутентификация и метрики Prometheus.
 
@@ -92,7 +92,7 @@ Offline developer toolbox for Windows — 19+ everyday utilities bundled into a 
 - Fully offline — nothing is sent to third-party servers
 
 <details>
-<summary>По-русски</summary>
+<summary>RU</summary>
 
 Оффлайн-набор инструментов разработчика для Windows — 19+ повседневных утилит в одном портативном `.exe`, без установки и без интернета.
 
@@ -129,7 +129,7 @@ A VK bot that watches a Yandex Mail inbox over **IMAP IDLE** in real time and in
 - Can run from a home computer
 
 <details>
-<summary>По-русски</summary>
+<summary>RU</summary>
 
 VK-бот, который следит за почтой Yandex через **IMAP IDLE** в реальном времени и мгновенно пересылает код подтверждения входа Steam сообщением в VK.
 
@@ -177,7 +177,7 @@ VK-бот, который следит за почтой Yandex через **IMA
 - [ ] Contribute to popular repositories
 
 <details>
-<summary>По-русски</summary>
+<summary>RU</summary>
 
 - [x] Разрабатывать полезный десктопный софт
 - [x] Выпустить бэкенд-сервис production-уровня — async Python API, PostgreSQL, Docker, CI/CD, метрики Prometheus
