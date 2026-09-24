@@ -28,6 +28,47 @@
 
 ## Featured Projects
 
+### [Confidence Scorer](https://github.com/Kakadu525/confidence-scorer)
+
+<table>
+<tr>
+<td width="200">
+<img src="https://raw.githubusercontent.com/Kakadu525/confidence-scorer/main/docs/images/run-bug.png" width="200" alt="Confidence Scorer report" />
+</td>
+<td>
+
+Confidence scorer for AI-generated pull requests. Before a merge, the diff goes through three independent checks and gets a 0-100 score with a verdict: safe to merge, needs review, or do not merge. Ships as a CLI and a [GitHub Action on the Marketplace](https://github.com/marketplace/actions/confidence-scorer).
+
+![Language](https://img.shields.io/badge/language-Python-3776AB)
+![GitHub Action](https://img.shields.io/badge/GitHub%20Action-Marketplace-2088FF)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+**Highlights**
+- Differential property-based testing: old and new versions of every changed function run on the same generated inputs (Hypothesis for Python, fast-check for JS/TS)
+- A confirmed counterexample caps the score, whatever the AI reviewers say
+- AI semantic diff per function plus an independent second reviewer, or a weighted panel of several models
+- Works with Anthropic, OpenAI, DeepSeek, Qwen, free OpenRouter models, or fully local Ollama
+- Evidence cap: the fewer checks actually ran, the lower the maximum score, so a run without AI keys never reports 100/100
+
+<details>
+<summary>RU</summary>
+
+Оценка уверенности для AI-сгенерированных PR. Перед мержем дифф проходит три независимые проверки и получает score 0-100 с вердиктом: можно мержить, нужно ревью или мержить нельзя. Есть CLI и [GitHub Action в Marketplace](https://github.com/marketplace/actions/confidence-scorer).
+
+- Differential property-based тесты: старая и новая версия каждой изменённой функции запускаются на одних и тех же входах (Hypothesis для Python, fast-check для JS/TS)
+- Подтверждённый контрпример ограничивает score, что бы ни сказали AI-ревьюеры
+- AI semantic diff по каждой функции и независимый второй ревьюер или взвешенная панель из нескольких моделей
+- Anthropic, OpenAI, DeepSeek, Qwen, бесплатные модели OpenRouter или полностью локальная Ollama
+- Потолок по покрытию: чем меньше проверок отработало, тем ниже максимальный score, и прогон без AI-ключей не покажет 100/100
+
+</details>
+
+</td>
+</tr>
+</table>
+
+---
+
 ### [Wallet API](https://github.com/Kakadu525/wallet-api)
 
 <table>
