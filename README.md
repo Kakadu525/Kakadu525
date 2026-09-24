@@ -1,10 +1,6 @@
 <h1 align="center">Hi, I'm Dima</h1>
 <h3 align="center">C++ & Python Developer • Desktop Applications • Backend • Open Source</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Kakadu525&label=Profile%20Views&style=for-the-badge&color=0e75b6" alt="Profile views" />
-</p>
-
 ---
 
 ## About Me
@@ -30,18 +26,19 @@
 
 ### [Confidence Scorer](https://github.com/Kakadu525/confidence-scorer)
 
-<table>
-<tr>
-<td width="200">
-<img src="https://raw.githubusercontent.com/Kakadu525/confidence-scorer/main/docs/images/run-bug.png" width="200" alt="Confidence Scorer report" />
-</td>
-<td>
+Confidence score for AI-generated pull requests. Before a merge, the diff goes through three independent checks and gets a 0-100 score with a verdict: safe to merge, needs review, or do not merge. Ships as a CLI and a [GitHub Action on the Marketplace](https://github.com/marketplace/actions/confidence-scorer).
 
-Confidence scorer for AI-generated pull requests. Before a merge, the diff goes through three independent checks and gets a 0-100 score with a verdict: safe to merge, needs review, or do not merge. Ships as a CLI and a [GitHub Action on the Marketplace](https://github.com/marketplace/actions/confidence-scorer).
+In the demo below, an "AI simplification" drops a `percent < 0` check. The differential test finds `percent = -0.5`: the old version raised `ValueError`, the new one returns `0.0`. Score 35/100, merge blocked.
 
 ![Language](https://img.shields.io/badge/language-Python-3776AB)
 ![GitHub Action](https://img.shields.io/badge/GitHub%20Action-Marketplace-2088FF)
 ![License](https://img.shields.io/badge/license-MIT-green)
+
+<p align="center">
+  <a href="https://github.com/Kakadu525/confidence-scorer">
+    <img src="https://raw.githubusercontent.com/Kakadu525/confidence-scorer/main/docs/images/run-bug.png" width="560" alt="confidence-score report: counterexample found, score 35/100" />
+  </a>
+</p>
 
 **Highlights**
 - Differential property-based testing: old and new versions of every changed function run on the same generated inputs (Hypothesis for Python, fast-check for JS/TS)
@@ -53,7 +50,7 @@ Confidence scorer for AI-generated pull requests. Before a merge, the diff goes 
 <details>
 <summary>RU</summary>
 
-Оценка уверенности для AI-сгенерированных PR. Перед мержем дифф проходит три независимые проверки и получает score 0-100 с вердиктом: можно мержить, нужно ревью или мержить нельзя. Есть CLI и [GitHub Action в Marketplace](https://github.com/marketplace/actions/confidence-scorer).
+Оценка уверенности для AI-сгенерированных PR. Перед мержем дифф проходит три независимые проверки и получает score 0-100 с вердиктом: можно мержить, нужно ревью или мержить нельзя. Есть CLI и [GitHub Action в Marketplace](https://github.com/marketplace/actions/confidence-scorer). Отчёты на английском, русский включается через `language: ru`.
 
 - Differential property-based тесты: старая и новая версия каждой изменённой функции запускаются на одних и тех же входах (Hypothesis для Python, fast-check для JS/TS)
 - Подтверждённый контрпример ограничивает score, что бы ни сказали AI-ревьюеры
@@ -63,9 +60,45 @@ Confidence scorer for AI-generated pull requests. Before a merge, the diff goes 
 
 </details>
 
-</td>
-</tr>
-</table>
+---
+
+### [Dev Toolbox](https://github.com/Kakadu525/dev-toolbox)
+
+Offline developer toolbox for Windows — 19 everyday utilities in a single portable `.exe`. No installation, no internet connection, no admin rights required.
+
+[![Download DevToolbox.exe](https://img.shields.io/badge/Download-DevToolbox.exe-0e75b6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Kakadu525/dev-toolbox/releases/latest/download/DevToolbox.exe)
+
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![Language](https://img.shields.io/badge/language-C%2B%2B20-00599C)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+<p align="center">
+  <a href="https://github.com/Kakadu525/dev-toolbox">
+    <img src="https://raw.githubusercontent.com/Kakadu525/dev-toolbox/main/resources/demo.gif" width="720" alt="Dev Toolbox demo" />
+  </a>
+</p>
+
+**Highlights**
+- JSON / XML / YAML / SQL formatters, JWT decoder, regex tester, diff viewer
+- Hash calculator (MD5/SHA256), Base64, UUID and QR code generators
+- HTTP client, cURL command generator, cron expression parser
+- Process explorer, log viewer with live-tail, clipboard history
+- Fully offline — nothing is sent to third-party servers
+- English and Russian interface, dark and light themes
+
+<details>
+<summary>RU</summary>
+
+Оффлайн-набор инструментов разработчика для Windows — 19 повседневных утилит в одном портативном `.exe`, без установки, без интернета и без прав администратора.
+
+- Форматтеры JSON / XML / YAML / SQL, JWT Decoder, Regex Tester, Diff Viewer
+- Hash Calculator (MD5/SHA256), Base64, UUID и QR-генераторы
+- HTTP Client, cURL Generator, Cron Parser
+- Process Explorer, Log Viewer (live-tail), Clipboard History
+- Полностью локальная обработка данных — ничего не отправляется на сторонние серверы
+- Английский и русский интерфейс, тёмная и светлая тема
+
+</details>
 
 ---
 
@@ -73,8 +106,8 @@ Confidence scorer for AI-generated pull requests. Before a merge, the diff goes 
 
 <table>
 <tr>
-<td width="200">
-<img src="https://raw.githubusercontent.com/Kakadu525/wallet-api/main/docs/screenshot.png" width="200" alt="Wallet API testing panel" />
+<td width="260">
+<img src="https://raw.githubusercontent.com/Kakadu525/wallet-api/main/docs/screenshot.png" width="260" alt="Wallet API testing panel" />
 </td>
 <td>
 
@@ -110,100 +143,9 @@ Async REST API for wallet balance operations, built with **FastAPI** and **Postg
 
 ---
 
-### [Dev Toolbox](https://github.com/Kakadu525/dev-toolbox)
+### Also
 
-<table>
-<tr>
-<td width="200">
-<img src="https://raw.githubusercontent.com/Kakadu525/dev-toolbox/main/resources/demo.gif" width="200" alt="Dev Toolbox demo" />
-</td>
-<td>
-
-Offline developer toolbox for Windows — 19+ everyday utilities bundled into a single portable `.exe`. No installation, no internet connection required.
-
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![Language](https://img.shields.io/badge/language-C%2B%2B20-00599C)
-![License](https://img.shields.io/badge/license-MIT-green)
-
-**Highlights**
-- JSON / XML / YAML / SQL formatters, JWT decoder, regex tester, diff viewer
-- Hash calculator (MD5/SHA256), Base64, UUID and QR code generators
-- HTTP client, cURL command generator, cron expression parser
-- Process explorer, log viewer with live-tail, clipboard history
-- Fully offline — nothing is sent to third-party servers
-
-<details>
-<summary>RU</summary>
-
-Оффлайн-набор инструментов разработчика для Windows — 19+ повседневных утилит в одном портативном `.exe`, без установки и без интернета.
-
-- Форматтеры JSON / XML / YAML / SQL, JWT Decoder, Regex Tester, Diff Viewer
-- Hash Calculator (MD5/SHA256), Base64, UUID и QR-генераторы
-- HTTP Client, cURL Generator, Cron Parser
-- Process Explorer, Log Viewer (live-tail), Clipboard History
-- Полностью локальная обработка данных — ничего не отправляется на сторонние серверы
-
-</details>
-
-</td>
-</tr>
-</table>
-
----
-
-### [Steam Code Bot](https://github.com/Kakadu525/steam-code-bot)
-
-<table>
-<tr>
-<td width="200">
-<img src="https://github.com/user-attachments/assets/ce6300dc-af64-4291-b8df-adc698015f20" width="200" alt="Steam Code Bot example" />
-</td>
-<td>
-
-A VK bot that watches a Yandex Mail inbox over **IMAP IDLE** in real time and instantly forwards Steam login confirmation codes as a VK message.
-
-![Language](https://img.shields.io/badge/language-Python-3776AB)
-
-**Highlights**
-- Delay measured in seconds — reacts to new mail instantly, no polling
-- Runs on VK Bot Long Poll API — no public domain, HTTPS certificate, or static IP needed
-- Can run from a home computer
-
-<details>
-<summary>RU</summary>
-
-VK-бот, который следит за почтой Yandex через **IMAP IDLE** в реальном времени и мгновенно пересылает код подтверждения входа Steam сообщением в VK.
-
-- Задержка — секунды: без опроса по таймеру, реагирует на новое письмо сразу
-- Работает через VK Bot Long Poll API — не нужен домен, HTTPS-сертификат или белый IP
-- Можно запустить даже с домашнего компьютера
-
-</details>
-
-</td>
-</tr>
-</table>
-
----
-
-## GitHub Statistics
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=Kakadu525&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=Kakadu525&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img height="170" src="https://streak-stats.demolab.com/?user=Kakadu525&theme=github-dark&hide_border=true" alt="GitHub streak stats" />
-</p>
-
----
-
-## Contribution Graph
-
-<p align="center">
-  <img src="https://activity-graph.vercel.app/graph?username=Kakadu525&theme=github-dark&hide_border=true" alt="Contribution graph" />
-</p>
+- [**Steam Code Bot**](https://github.com/Kakadu525/steam-code-bot) — a VK bot that watches a Yandex Mail inbox over IMAP IDLE and forwards Steam login codes to VK within seconds. <sub>RU: VK-бот, который мгновенно пересылает коды входа Steam из почты Yandex.</sub>
 
 ---
 
