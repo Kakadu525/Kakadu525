@@ -149,6 +149,27 @@ Async REST API for wallet balance operations, built with **FastAPI** and **Postg
 
 ---
 
+## GitHub Statistics
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=Kakadu525&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=Kakadu525&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img height="170" src="https://streak-stats.demolab.com/?user=Kakadu525&theme=github-dark&hide_border=true" alt="GitHub streak stats" />
+</p>
+
+---
+
+## Contribution Graph
+
+<p align="center">
+  <img src="https://activity-graph.vercel.app/graph?username=Kakadu525&theme=github-dark&hide_border=true" alt="Contribution graph" />
+</p>
+
+---
+
 ## Current Goals
 
 - [x] Build useful desktop software
